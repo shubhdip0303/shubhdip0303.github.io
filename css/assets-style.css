@@ -425,8 +425,6 @@ h4 {
     margin: 0 0 40px;
   }
   .event-area .event-img {
-    height: 375px;
-    overflow: hidden;
     margin-bottom: 2rem;
   }
   .banner-area.bg-img {
@@ -2916,11 +2914,12 @@ header .main-menus nav ul li a:hover {
   -moz-border-radius: 28px;
   -ms-border-radius: 28px;
   border-radius: 28px;
-  height: 100%;
+  height: 445px;
 }
 .event-area .event-img {
-  height: 375px;
+  height: 445px;
   overflow: hidden;
+  border-radius: 30px;
 }
 .event-area .events h2 {
   font-weight: 700;
