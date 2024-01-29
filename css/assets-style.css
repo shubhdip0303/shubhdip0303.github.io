@@ -286,7 +286,7 @@ h4 {
 }
 
 .f-40 {
-  font-size: 40px;
+  font-size: 40px !important;
 }
 
 .f-48 {
@@ -424,11 +424,18 @@ h4 {
   .section-heading {
     margin: 0 0 40px;
   }
+  .event-area .event-img {
+    height: 375px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+  .banner-area.bg-img {
+    background-position: center !important;
+  }
 }
 .section-heading h2 {
   margin: 0;
   font-weight: 700;
-  text-transform: uppercase;
   color: #111111;
   padding: 0 0 53px;
   position: relative;
@@ -1679,8 +1686,11 @@ header .main-menus nav ul li a:hover {
 }
 
 .slider-list.slid_two {
-  background: url(../images/sliders-2.jpg) no-repeat center;
+  background: url(../images/bg/bg-3.JPG) no-repeat center;
   background-size: cover;
+}
+.slider-list.slid_two .media {
+  overflow: a;
 }
 
 .slider-list:after {
@@ -1705,6 +1715,9 @@ header .main-menus nav ul li a:hover {
   .slider-list .slider-con {
     top: 0;
     margin: 50px 0 0;
+  }
+  .slider-list.slid_two {
+    background-position: -200px;
   }
 }
 @media only screen and (max-width: 320px) {
@@ -1958,7 +1971,8 @@ header .main-menus nav ul li a:hover {
 .banner-area {
   position: relative;
   display: block;
-  background: url(../images/banner-bg-2.jpg);
+  background: url(../images/bg/bg-6.JPG);
+  background-position: center -200px !important;
 }
 .banner-area:after {
   background: #f33c3c;
@@ -1985,10 +1999,10 @@ header .main-menus nav ul li a:hover {
 .counter-area {
   position: relative;
   display: block;
-  background: url(../images/banner-bg-1.jpg);
+  background: url(../images/bg/bg-1.jpg);
 }
 .counter-area .counter-wrapper {
-  background: rgb(95 95 95 / 70%);
+  background: rgb(37 25 0 / 75%);
   border-radius: 20px;
   padding: 1.5rem 1rem;
 }
@@ -2362,10 +2376,10 @@ header .main-menus nav ul li a:hover {
 .family-area {
   position: relative;
   display: block;
-  background: url(../images/family-bg-1.jpg);
+  background: url(../images/bg/bg-1.JPG);
 }
 .family-area:after {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.55);
 }
 .family-area .container {
   position: relative;
@@ -2435,12 +2449,7 @@ header .main-menus nav ul li a:hover {
   background: transparent;
   margin: 0 8px;
 }
-@media only screen and (max-width: 768px) {
-  .family-area .family-tabbox .nav-tabs li {
-    width: 100px;
-    margin: 0 2px;
-  }
-}
+
 .family-area .family-tabbox .nav-tabs li a {
   padding: 0px;
   display: block;
@@ -2451,7 +2460,8 @@ header .main-menus nav ul li a:hover {
   border-radius: 100%;
 }
 .family-area .family-tabbox .nav-tabs li a img {
-  width: 100%;
+  width: 100px;
+  height: 100px;
   display: block;
   margin: 0;
   -webkit-border-radius: 100%;
@@ -2569,40 +2579,6 @@ header .main-menus nav ul li a:hover {
 .family-area .family-tabbox .familyslider .item .familyinfo:hover .content h2 {
   color: #f33c3c;
 }
-
-/*....................................
-7. Services area start here
-....................................*/
-/*....................................
-8. Team area start here
-....................................*/
-/*....................................
-9. Price list area start here
-....................................*/
-/*....................................
-10. Pagination area start here
-....................................*/
-/*....................................
-11. Sidebar area start here
-....................................*/
-/*....................................
-12. Products area start here
-....................................*/
-/*....................................
-13. Testimonial area start here
-....................................*/
-/*....................................
-14. Client area start here
-....................................*/
-/*....................................
-15. Form area start here
-....................................*/
-/*....................................
-16. Social link area start here
-....................................*/
-/*....................................
-17. Blog area start here
-....................................*/
 .blog-area .blogs {
   display: block;
   position: relative;
@@ -2720,7 +2696,7 @@ header .main-menus nav ul li a:hover {
 .rspv-area {
   position: relative;
   display: block;
-  background: url(../images/banner-bg-3.jpg);
+  background: url(../images/bg/bg-9.JPG);
   padding: 5rem 0;
 }
 .rspv-area:after {
@@ -2853,43 +2829,6 @@ header .main-menus nav ul li a:hover {
   position: relative;
   padding-top: 88px;
 }
-.rspv-area .testimonial-slider:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 60px;
-  background: url(../images/icons-1.png) no-repeat center;
-}
-.rspv-area .testimonial-slider .content {
-  text-align: center;
-  display: block;
-  position: relative;
-}
-.rspv-area .testimonial-slider .content h2 {
-  font-family: "Bilbo Swash Caps", cursive;
-  font-size: 58px;
-  color: #fff;
-  margin: 0;
-  font-weight: 400;
-}
-@media only screen and (max-width: 480px) {
-  .rspv-area .testimonial-slider .content h2 {
-    font-size: 48px;
-  }
-}
-@media only screen and (max-width: 320px) {
-  .rspv-area .testimonial-slider .content h2 {
-    font-size: 36px;
-  }
-}
-.rspv-area .testimonial-slider .content p {
-  margin: 0;
-  color: #fff;
-  opacity: 0.5;
-}
-
 .contact-area {
   display: block;
   position: relative;
@@ -2929,6 +2868,7 @@ header .main-menus nav ul li a:hover {
   height: 120px;
   line-height: 112px;
   text-align: center;
+  color: #f33c3c;
   border: 6px solid #ebebeb;
   float: left;
   background: #fff;
@@ -3094,7 +3034,10 @@ header .main-menus nav ul li a:hover {
 21. Event area start here
 ....................................*/
 .event-area .events {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: relative;
   margin: 0 0 30px;
   background: #fff;
@@ -3106,6 +3049,10 @@ header .main-menus nav ul li a:hover {
   -ms-border-radius: 28px;
   border-radius: 28px;
   height: 100%;
+}
+.event-area .event-img {
+  height: 375px;
+  overflow: hidden;
 }
 .event-area .events h2 {
   font-weight: 700;
