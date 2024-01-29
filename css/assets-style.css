@@ -2845,10 +2845,10 @@ header .main-menus nav ul li a:hover {
   }
 }
 .contact-area .contact-info .info-list {
-  display: block;
+  display: flex;
+  align-items: center;
   position: relative;
   overflow: hidden;
-  vertical-align: middle;
   margin: 0 0 30px;
   clear: both;
 }
