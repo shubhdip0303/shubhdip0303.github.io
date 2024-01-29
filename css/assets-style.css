@@ -1999,7 +1999,7 @@ header .main-menus nav ul li a:hover {
 .counter-area {
   position: relative;
   display: block;
-  background: url(../images/bg/bg-1.jpg);
+  background: url(../images/bg/bg-1.JPG);
 }
 .counter-area .counter-wrapper {
   background: rgb(37 25 0 / 75%);
@@ -2896,138 +2896,6 @@ header .main-menus nav ul li a:hover {
   display: block;
   color: #797979;
   font-family: "Lora", serif;
-}
-
-/*....................................
-20. Gallery area start here
-....................................*/
-.gallery-area {
-  position: relative;
-  display: block;
-  background: url(../images/gallery-bg-1.jpg);
-}
-.gallery-area:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
-}
-.gallery-area .container {
-  position: relative;
-  z-index: 999;
-}
-.gallery-area .section-heading h2 {
-  color: #fff;
-}
-.gallery-area .gallery {
-  display: block;
-  position: relative;
-  margin: 0 0 30px;
-}
-.gallery-area .gallery figure {
-  display: block;
-  position: relative;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-  vertical-align: middle;
-}
-.gallery-area .gallery figure a {
-  display: block;
-  position: relative;
-}
-.gallery-area .gallery figure a span {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  z-index: 999;
-  width: 52px;
-  height: 52px;
-  line-height: 52px;
-  text-align: center;
-  background: #fff;
-  margin: -26px auto 0;
-  font-size: 20px;
-  transform: scale(0);
-  color: #f33c3c;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
-  border-radius: 100%;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-.gallery-area .gallery figure a span i {
-  position: relative;
-  z-index: 999;
-}
-.gallery-area .gallery figure a span:after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  right: 50%;
-  top: 50%;
-  bottom: 50%;
-  background: #fff;
-  opacity: 0.4;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
-  border-radius: 100%;
-  -webkit-transition: all 0.8s ease;
-  -moz-transition: all 0.8s ease;
-  -ms-transition: all 0.8s ease;
-  -o-transition: all 0.8s ease;
-  transition: all 0.8s ease;
-}
-.gallery-area .gallery figure a img {
-  width: 100%;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-.gallery-area .gallery figure:after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  right: 50%;
-  top: 50%;
-  bottom: 50%;
-  background: #f33c3c;
-  opacity: 0;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-.gallery-area .gallery figure:hover a span {
-  transform: scale(1);
-}
-.gallery-area .gallery figure:hover a span:after {
-  left: -6px;
-  right: -6px;
-  top: -6px;
-  bottom: -6px;
-}
-.gallery-area .gallery figure:hover a img {
-  transform: scale(1.2);
-}
-.gallery-area .gallery figure:hover:after {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  opacity: 0.6;
 }
 
 /*....................................
