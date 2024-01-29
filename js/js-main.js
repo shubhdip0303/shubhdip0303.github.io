@@ -1,6 +1,9 @@
 (function ($) {
   "use strict";
-  // Preloader
+
+  /*--------------------------
+1. Preloader
+---------------------------- */
   $(window).on("load", function () {
     $("#status").fadeOut();
     $("#preloader").delay(350).fadeOut("slow");
@@ -87,14 +90,7 @@
   });
 
   /*--------------------------
-10. masonry active
----------------------------- */
-  $("#gallery").masonry({
-    itemSelector: ".m-item",
-  });
-
-  /*--------------------------
-11. scrollUp
+10. scrollUp
 ---------------------------- */
   $.scrollUp({
     scrollText: '<i class="fa fa-angle-up"></i>',
@@ -103,7 +99,9 @@
     animation: "fade",
   });
 
-  // Contact Form Submition
+  /*--------------------------
+11. Contanct form submission
+---------------------------- */
   function checkRequire(formId, targetResp) {
     targetResp.html("");
     var email = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/;
