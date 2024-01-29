@@ -8,6 +8,7 @@ html {
   line-height: 23px;
   color: #797979;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 a {
   color: #797979;
@@ -2966,11 +2967,10 @@ footer {
   position: relative;
   background: #111111;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 footer .copyright {
-  height: 120px;
-  line-height: 120px;
+  height: 40px;
   display: block;
 }
 @media only screen and (max-width: 480px) {
@@ -2994,10 +2994,12 @@ footer .arrow-button {
   border: 6px solid #111;
   background: #fff;
   color: #f33c3c;
-  height: 80px;
-  line-height: 72px;
-  width: 80px;
+  height: 45px;
+  width: 45px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
