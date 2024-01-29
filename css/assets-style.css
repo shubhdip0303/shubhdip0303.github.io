@@ -2713,9 +2713,9 @@ header .main-menus nav ul li a:hover {
   text-align: center;
   padding: 60px;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
   .rspv-area .rspv-form {
-    padding: 40px 0;
+    padding: 40px 10px;
   }
 }
 .rspv-area .rspv-form .heading {
