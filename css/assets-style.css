@@ -52,6 +52,7 @@ button:focus {
 }
 textarea {
   outline: none;
+  resize: none;
 }
 textarea:focus {
   outline: none;
@@ -2151,7 +2152,6 @@ header .main-menus nav ul li a:hover {
   position: relative;
   display: block;
   overflow: hidden;
-  vertical-align: middle;
 }
 .love-story .love-story .story-list:after {
   content: "";
@@ -2583,7 +2583,6 @@ header .main-menus nav ul li a:hover {
   position: relative;
   background: #fff;
   overflow: hidden;
-  vertical-align: middle;
   margin: 0 0 40px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -2613,7 +2612,6 @@ header .main-menus nav ul li a:hover {
 }
 .blog-area .blogs .blog-img figure {
   overflow: hidden;
-  vertical-align: middle;
   position: relative;
   display: block;
   z-index: 999;
